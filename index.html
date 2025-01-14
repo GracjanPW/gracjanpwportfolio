@@ -38,7 +38,7 @@
           <button id="cta-button">Hire me</button>
         </div>
       </section>
-      <section id="about">
+      <section id="about" tabindex="0">
         <div class="section-heading">
             <hr/>
             <h2>About Me</h2>
@@ -66,7 +66,7 @@
             <h2>My Skills</h2>
             <hr/>
         </div>
-        <div class="skills-container">
+        <div class="skills-container container" tabindex="0">
           <h3>Frontend</h3>
           <div class="skills-items">
             <div class="skill-container">
@@ -131,7 +131,7 @@
             </div>
           </div>
         </div>
-        <div class="skills-container">
+        <div class="skills-container container" tabindex="0">
             <h3>Backend</h3>
             <div class="skills-items">
               <div class="skill-container">
@@ -196,7 +196,7 @@
               </div>
             </div>
         </div>
-        <div class="skills-container">
+        <div class="skills-container container" tabindex="0">
             <h3>Databases</h3>
             <div class="skills-items">
               <div class="skill-container">
@@ -261,7 +261,7 @@
               </div>
             </div>
         </div>
-        <div class="skills-container">
+        <div class="skills-container container" tabindex="0">
             <h3>Tools</h3>
             <div class="skills-items">
               <div class="skill-container">
@@ -327,7 +327,27 @@
             </div>
         </div>
       </section>
+      <section id="contact">
+        <div class="section-heading">
+            <hr/>
+            <h2>Contact Me</h2>
+            <hr/>
+        </div>
+            <form action="" class="contact-form container" tabindex="0">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+        Links
+    </footer>
   </body>
 </html>
